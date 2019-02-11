@@ -3,4 +3,7 @@
 <h4>Description: <%= @product["description"] %></h4>
 <h4>Supplier Id: <%=@product["supplier_id"] %></h4>
 
+<a href="/client/products/<%= @product["id"] %>/edit">Edit</a>
+<a href="/client/products/<%= @product["id"] %>" data-method="delete">Delete</a>
+
 <a href="/client/products">Home</a>
